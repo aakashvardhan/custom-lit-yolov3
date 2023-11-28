@@ -7,7 +7,7 @@ import numpy as np
 import os
 import pandas as pd
 import torch
-# from utils import xywhn2xyxy, xyxy2xywhn
+from utils import xywhn2xyxy, xyxy2xywhn
 import random 
 
 from PIL import Image, ImageFile
@@ -103,8 +103,16 @@ class YOLODataset(Dataset):
         return img4, labels4 
 
     def __getitem__(self, index):
-
-        image, bboxes = self.load_mosaic(index)
+        
+        # Apply mosaic augmentation only 75% training batches
+         
+        if random.random() < 0.75:
+            image, bboxes = self.load_mosaic(index)
+        else:
+            label_path = os.path.join(self.label_dir, self.annotations.iloc[index, 1])
+            bboxes = np.roll(np.loadtxt(fname=label_path, delimiter=" ", ndmin=2), 4, axis=1).tolist()
+            img_path = os.path.join(self.img_dir, self.annotations.iloc[index, 0])
+            image = np.array(Image.open(img_path).convert("RGB"))
 
         if self.transform:
             augmentations = self.transform(image=image, bboxes=bboxes)
