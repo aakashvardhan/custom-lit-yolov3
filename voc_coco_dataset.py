@@ -9,7 +9,7 @@ import pandas as pd
 import torch
 from utils import xywhn2xyxy, xyxy2xywhn
 import random 
-
+import torchvision.transforms as transforms
 from PIL import Image, ImageFile
 from torch.utils.data import Dataset, DataLoader
 from utils import (
@@ -32,6 +32,7 @@ class YOLODataset(Dataset):
         S=[13, 26, 52],
         C=20,
         transform=None,
+        _mosaic_prob = 0.75
     ):
         self.annotations = pd.read_csv(csv_file)
         self.img_dir = img_dir
@@ -45,6 +46,7 @@ class YOLODataset(Dataset):
         self.num_anchors_per_scale = self.num_anchors // 3
         self.C = C
         self.ignore_iou_thresh = 0.5
+        self._mosaic_prob = _mosaic_prob
 
     def __len__(self):
         return len(self.annotations)
@@ -100,13 +102,18 @@ class YOLODataset(Dataset):
         labels4[:, :-1] = np.clip(labels4[:, :-1], 0, 1)
         labels4 = labels4[labels4[:, 2] > 0]
         labels4 = labels4[labels4[:, 3] > 0]
-        return img4, labels4 
+        return img4, labels4
+    
+    def resize(self, img, size):
+        # Multi resolution support
+        transform = transforms.Compose(
+            [transforms.Resize((size, size))]
+        )
+        return transform(img)
+        
 
     def __getitem__(self, index):
-        
-        # Apply mosaic augmentation only 75% training batches
-         
-        if random.random() < 0.75:
+        if random.random() <= self._mosaic_prob:
             image, bboxes = self.load_mosaic(index)
         else:
             label_path = os.path.join(self.label_dir, self.annotations.iloc[index, 1])

@@ -5,5 +5,5 @@ from voc_coco_dataset import YOLODataset
 
 
 class YOLODataModule(LightningDataModule):
-    def __init__(self)
+    def __init__(self, )
 
