@@ -23,7 +23,7 @@ class YOLODataModule(LightningDataModule):
             img_dir=self.config.IMG_DIR,
             label_dir=self.config.LABEL_DIR,
             anchors=self.config.ANCHORS,
-            mosaic_prob=self.config.MOSAIC_PROB
+            _mosaic_prob=self.config.MOSAIC_PROB
         )
         
         self.voc_test = YOLODataset(
@@ -37,7 +37,7 @@ class YOLODataModule(LightningDataModule):
             img_dir=self.config.IMG_DIR,
             label_dir=self.config.LABEL_DIR,
             anchors=self.config.ANCHORS,
-            mosaic_prob=0
+            _mosaic_prob=0
         )
         
     def train_dataloader(self):
