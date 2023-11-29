@@ -18,24 +18,10 @@ class YOLODataModule(LightningDataModule):
         )
         
     def train_dataloader(self):
-        return DataLoader(
-            self.voc_train,
-            batch_size=self.config.BATCH_SIZE,
-            num_workers=self.config.NUM_WORKERS,
-            pin_memory=self.config.PIN_MEMORY,
-            shuffle=True,
-            drop_last=False,
-        )
+        return self.voc_train
         
     def test_dataloader(self):
-        return DataLoader(
-            self.voc_test,
-            batch_size=self.config.BATCH_SIZE,
-            num_workers=self.config.NUM_WORKERS,
-            pin_memory=self.config.PIN_MEMORY,
-            shuffle=False,
-            drop_last=False,
-        )
+        return self.voc_test
         
         
 
