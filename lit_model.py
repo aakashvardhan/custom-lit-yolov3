@@ -41,7 +41,7 @@ class YOLOv3LightningModule(pl.LightningModule):
         self.log('train_loss', loss, prog_bar=True, logger=True, on_step=True, on_epoch=True)
         return loss
     
-    def validation_step(self, batch, batch_idx):
+    def test_step(self, batch, batch_idx):
         images, targets = batch
         y0, y1, y2 = (targets[0],targets[1],targets[2])
         out = self(images)
@@ -50,7 +50,7 @@ class YOLOv3LightningModule(pl.LightningModule):
                 + self.loss_fn(out[1], y1, self.scaled_anchors[1])
                 + self.loss_fn(out[2], y2, self.scaled_anchors[2]))
         
-        self.log('val_loss', loss, prog_bar=True, logger=True, on_step=True, on_epoch=True)
+        self.log('test_loss', loss, prog_bar=True, logger=True, on_step=True, on_epoch=True)
         
     def on_train_start(self):
         if self.config.LOAD_MODEL:

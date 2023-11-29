@@ -50,7 +50,7 @@ class YOLODataModule(LightningDataModule):
             drop_last=False,
         )
         
-    def val_dataloader(self):
+    def test_dataloader(self):
         return DataLoader(
             self.voc_test,
             batch_size=self.config.BATCH_SIZE,
