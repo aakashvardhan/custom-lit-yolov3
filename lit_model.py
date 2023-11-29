@@ -24,7 +24,7 @@ class YOLOv3LightningModule(pl.LightningModule):
     
     def configure_optimizers(self):
         optimizer = optim.Adam(self.parameters(), lr = self.lr, weight_decay = self.config.WEIGHT_DECAY)
-        EPOCHS = self.config.EPOCHS * 2 // 5
+        EPOCHS = self.config.NUM_EPOCHS * 2 // 5
         scheduler = OneCycleLR(optimizer, max_lr = self.one_cycle_best_LR, epochs =EPOCHS , steps_per_epoch = len(self.train_dataloader()),
                                pct_start = 5/EPOCHS, anneal_strategy = 'linear')
         return [optimizer], [{"scheduler": scheduler, "interval": "step"}]
