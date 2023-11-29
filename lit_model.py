@@ -58,7 +58,7 @@ class YOLOv3LightningModule(pl.LightningModule):
                 self.config.CHECKPOINT_FILE, self.model, self.optimizers(), self.config.LEARNING_RATE
             )
 
-        scaled_anchors = (
+        self.scaled_anchors = (
             torch.tensor(self.config.ANCHORS)
             * torch.tensor(self.config.S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
         )
