@@ -166,7 +166,7 @@ def test():
     transform = config.test_transforms
 
     dataset = YOLODataset(
-        "dataset/PASCAL_VOC/2examples.csv",
+        "dataset/PASCAL_VOC/train.csv",
         "dataset/PASCAL_VOC/images",
         "dataset/PASCAL_VOC/labels",
         S=[13, 26, 52],
