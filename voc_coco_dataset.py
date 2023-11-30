@@ -166,9 +166,9 @@ def test():
     transform = config.test_transforms
 
     dataset = YOLODataset(
-        "PASCAL_VOC/train.csv",
-        "PASCAL_VOC/images",
-        "PASCAL_VOC/labels",
+        config.IMG_DIR + "train.csv",
+        config.IMG_DIR,
+        config.LABEL_DIR,
         S=[13, 26, 52],
         anchors=anchors,
         transform=transform,
