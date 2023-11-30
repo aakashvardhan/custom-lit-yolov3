@@ -30,7 +30,7 @@ class YOLOv3LightningModule(pl.LightningModule):
     
     def training_step(self, batch, batch_idx):
         images, targets = batch
-        y0, y1, y2 = (targets[0],targets[1],targets[2])
+        y0, y1, y2 = (targets[0].to(self.device),targets[1].to(self.device),targets[2].to(self.device))
         out = self(images)
 
         loss = (self.loss_fn(out[0], y0, self.scaled_anchors[0])
@@ -42,7 +42,9 @@ class YOLOv3LightningModule(pl.LightningModule):
     
     def test_step(self, batch, batch_idx):
         images, targets = batch
-        y0, y1, y2 = (targets[0],targets[1],targets[2])
+        y0, y1, y2 = (targets[0].to(self.device),
+                      targets[1].to(self.device),
+                      targets[2].to(self.device))
         out = self(images)
 
         loss = (self.loss_fn(out[0], y0, self.scaled_anchors[0])
