@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
 from models.cnn_block import CNNBlock
+import lightning as pl
 
 
-
-class ScalePrediction(nn.Module):
+class ScalePrediction(pl.LightningModule):
     def __init__(self, in_channels, num_classes):
         super().__init__()
         self.pred = nn.Sequential(

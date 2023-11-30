@@ -4,10 +4,10 @@ from models.cnn_block import CNNBlock
 from models.scale_prediction import ScalePrediction
 from models.residual_block import ResidualBlock
 from models.yolo_config import config
+import lightning as pl
 
 
-
-class YOLOv3(nn.Module):
+class YOLOv3(pl.LightningModule):
     def __init__(self, in_channels=3, num_classes=80):
         super().__init__()
         self.num_classes = num_classes

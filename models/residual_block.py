@@ -1,11 +1,11 @@
 import torch
 import torch.nn as nn
 from models.cnn_block import CNNBlock
+import lightning as pl
 
 
 
-
-class ResidualBlock(nn.Module):
+class ResidualBlock(pl.LightningModule):
     def __init__(self, channels, use_residual=True, num_repeats=1):
         super().__init__()
         self.layers = nn.ModuleList()
