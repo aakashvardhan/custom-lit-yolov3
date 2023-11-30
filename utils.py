@@ -374,13 +374,13 @@ def cells_to_bboxes(predictions, anchors, S, is_preds=True):
     return converted_bboxes.tolist()
 
 def check_class_accuracy(model, loader, threshold):
-    model.eval()
+    #model.eval()
     tot_class_preds, correct_class = 0, 0
     tot_noobj, correct_noobj = 0, 0
     tot_obj, correct_obj = 0, 0
 
     for idx, (x, y) in enumerate(tqdm(loader)):
-        # x = x.to(config.DEVICE)
+        x = x.to(config.DEVICE)
         with torch.no_grad():
             out = model(x)
 
@@ -399,11 +399,11 @@ def check_class_accuracy(model, loader, threshold):
             tot_obj += torch.sum(obj)
             correct_noobj += torch.sum(obj_preds[noobj] == y[i][..., 0][noobj])
             tot_noobj += torch.sum(noobj)
-
-    print(f"Class accuracy is: {(correct_class/(tot_class_preds+1e-16))*100:2f}%")
-    print(f"No obj accuracy is: {(correct_noobj/(tot_noobj+1e-16))*100:2f}%")
-    print(f"Obj accuracy is: {(correct_obj/(tot_obj+1e-16))*100:2f}%")
-    model.train()
+    class_acc = (correct_class/(tot_class_preds+1e-16))*100
+    no_obj_acc = (correct_noobj/(tot_noobj+1e-16))*100
+    obj_acc = (correct_obj/(tot_obj+1e-16))*100
+    
+    return class_acc, no_obj_acc, obj_acc
 
 
 def get_mean_std(loader):
