@@ -40,6 +40,19 @@ class YOLOv3LightningModule(pl.LightningModule):
         self.log('train_loss', loss, prog_bar=True, logger=True, on_step=True, on_epoch=True)
         return loss
     
+    def validation_step(self, batch, batch_idx):
+        images, targets = batch
+        y0, y1, y2 = (targets[0],
+                      targets[1],
+                      targets[2])
+        out = self(images)
+
+        loss = (self.loss_fn(out[0], y0, self.scaled_anchors[0])
+                + self.loss_fn(out[1], y1, self.scaled_anchors[1])
+                + self.loss_fn(out[2], y2, self.scaled_anchors[2]))
+        
+        self.log('val_loss', loss, prog_bar=True, logger=True, on_step=True, on_epoch=True)
+    
     def test_step(self, batch, batch_idx):
         images, targets = batch
         y0, y1, y2 = (targets[0],
@@ -62,4 +75,4 @@ class YOLOv3LightningModule(pl.LightningModule):
         self.scaled_anchors = (
             torch.tensor(self.config.ANCHORS)
             * torch.tensor(self.config.S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
-        ).to(self.config.DEVICE)
+        )

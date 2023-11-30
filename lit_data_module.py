@@ -12,7 +12,7 @@ class YOLODataModule(LightningDataModule):
         self.test_dir = test_dir
         
     def setup(self, stage = 'None'):
-        self.voc_train, self.voc_test, _ = utils.get_loaders(
+        self.voc_train, self.voc_test, self.voc_val = utils.get_loaders(
             train_csv_path=self.train_dir,
             test_csv_path=self.test_dir,
         )
@@ -22,6 +22,9 @@ class YOLODataModule(LightningDataModule):
         
     def test_dataloader(self):
         return self.voc_test
+    
+    def val_dataloader(self):
+        return self.voc_val
         
         
 
