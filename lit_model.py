@@ -19,8 +19,8 @@ class YOLOv3LightningModule(pl.LightningModule):
     def forward(self, x):
         return self.model(x)
     
-    def loss_fn(self):
-        return loss.YoloLoss()
+    def loss_fn(self, pred, targets, anchors):
+        return loss.YoloLoss(pred, targets, anchors)
     
     def configure_optimizers(self):
         optimizer = optim.Adam(self.parameters(), lr = self.lr, weight_decay = self.config.WEIGHT_DECAY)
