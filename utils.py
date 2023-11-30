@@ -292,7 +292,7 @@ def get_evaluation_bboxes(
     all_pred_boxes = []
     all_true_boxes = []
     for batch_idx, (x, labels) in enumerate(tqdm(loader)):
-        # x = x.to(device)
+        x = x.to(device)
 
         with torch.no_grad():
             predictions = model(x)
@@ -501,7 +501,7 @@ def get_loaders(train_csv_path, test_csv_path):
 def plot_couple_examples(model, loader, thresh, iou_thresh, anchors):
     model.eval()
     x, y = next(iter(loader))
-    # x = x.to("cuda")
+    x = x.to("cuda")
     with torch.no_grad():
         out = model(x)
         bboxes = [[] for _ in range(x.shape[0])]

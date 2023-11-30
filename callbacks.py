@@ -70,6 +70,7 @@ class MAPCallback(pl.Callback):
                 iou_threshold=self.config.NMS_IOU_THRESH,
                 anchors=self.config.ANCHORS,
                 num_classes=self.config.NUM_CLASSES,
+                device=self.config.DEVICE,
             )
             
             pl_module.log_dict({"test_mAP": test_map}, logger=True)
@@ -86,7 +87,7 @@ class PlotExampleCallback(pl.Callback):
             print("Plotting example...")
             plot_couple_examples(
                 pl_module,
-                loader=trainer.datamodule.train_dataloader(),
+                loader=trainer.datamodule.test_dataloader(),
                 iou_thresh=0.5,
                 anchors=pl.module.scaled_anchors,
                 thresh=0.6
