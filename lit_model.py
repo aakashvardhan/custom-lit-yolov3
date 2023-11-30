@@ -75,4 +75,4 @@ class YOLOv3LightningModule(pl.LightningModule):
         self.scaled_anchors = (
             torch.tensor(self.config.ANCHORS)
             * torch.tensor(self.config.S).unsqueeze(1).unsqueeze(1).repeat(1, 3, 2)
-        )
+        ).to(self.device)
