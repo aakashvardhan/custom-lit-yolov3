@@ -374,7 +374,7 @@ def cells_to_bboxes(predictions, anchors, S, is_preds=True):
     return converted_bboxes.tolist()
 
 def check_class_accuracy(model, loader, threshold):
-    #model.eval()
+    model.eval()
     tot_class_preds, correct_class = 0, 0
     tot_noobj, correct_noobj = 0, 0
     tot_obj, correct_obj = 0, 0
@@ -402,7 +402,7 @@ def check_class_accuracy(model, loader, threshold):
     class_acc = (correct_class/(tot_class_preds+1e-16))*100
     no_obj_acc = (correct_noobj/(tot_noobj+1e-16))*100
     obj_acc = (correct_obj/(tot_obj+1e-16))*100
-    
+    model.train()
     return class_acc, no_obj_acc, obj_acc
 
 
