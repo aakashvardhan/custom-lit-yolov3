@@ -6,7 +6,7 @@ from utils import (
     plot_couple_examples,
     get_evaluation_bboxes,
 )
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 
 
 class ClassAccuracyCallback(pl.Callback):
