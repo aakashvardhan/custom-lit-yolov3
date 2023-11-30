@@ -17,3 +17,5 @@ class CNNBlock(pl.LightningModule):
             return self.leaky(self.bn(self.conv(x)))
         else:
             return self.conv(x)
+        
+        
