@@ -89,6 +89,6 @@ class PlotExampleCallback(pl.Callback):
                 pl_module,
                 loader=trainer.datamodule.test_dataloader(),
                 iou_thresh=0.5,
-                anchors=pl.module.scaled_anchors,
+                anchors=pl_module.scaled_anchors,
                 thresh=0.6
             )
