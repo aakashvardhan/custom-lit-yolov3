@@ -62,19 +62,27 @@ class MAPCallback(pl.Callback):
         self.config = config
         
     def on_train_epoch_end(self, trainer, pl_module): 
-        if (trainer.current_epoch + 1) % self.test_n_epochs == 0:
-            print("Calculating Test mAP...")
-            test_map = mean_average_precision(
-                pl_module,
+        if (trainer.current_epoch + 1) % self.every_n_epochs == 0:
+            pred_boxes, true_boxes = get_evaluation_bboxes(
                 loader=trainer.datamodule.test_dataloader(),
+                model=pl_module,
                 iou_threshold=self.config.NMS_IOU_THRESH,
                 anchors=self.config.ANCHORS,
-                num_classes=self.config.NUM_CLASSES,
+                threshold=self.config.CONF_THRESHOLD,
                 device=self.config.DEVICE,
             )
+
+            map_val = mean_average_precision(
+                pred_boxes=pred_boxes,
+                true_boxes=true_boxes,
+                iou_threshold=self.config.MAP_IOU_THRESH,
+                box_format="midpoint",
+                num_classes=self.config.NUM_CLASSES,)
             
-            pl_module.log_dict({"test_mAP": test_map}, logger=True)
-            print(f"Test mAP: {test_map.item():.3f}")
+            
+            pl_module.log("val_map", map_val.item(), logger=True)
+            print(f"MAP: {map_val.item()}")
+            pl_module.train()
             
 class PlotExampleCallback(pl.Callback):
     def __init__(self, config, n_epochs: int = 5):

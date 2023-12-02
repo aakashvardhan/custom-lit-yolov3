@@ -453,6 +453,7 @@ def get_loaders(train_csv_path, test_csv_path):
         img_dir=config.IMG_DIR,
         label_dir=config.LABEL_DIR,
         anchors=config.ANCHORS,
+        _mosaic_prob = config.TRAIN_MOSAIC
     )
     test_dataset = YOLODataset(
         test_csv_path,
@@ -461,6 +462,7 @@ def get_loaders(train_csv_path, test_csv_path):
         img_dir=config.IMG_DIR,
         label_dir=config.LABEL_DIR,
         anchors=config.ANCHORS,
+        _mosaic_prob = config.TEST_MOSAIC
     )
     train_loader = DataLoader(
         dataset=train_dataset,
