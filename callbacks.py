@@ -62,7 +62,7 @@ class MAPCallback(pl.Callback):
         self.config = config
         
     def on_train_epoch_end(self, trainer, pl_module): 
-        if (trainer.current_epoch + 1) % self.every_n_epochs == 0:
+        if (trainer.current_epoch + 1) % self.test_n_epochs == 0:
             pred_boxes, true_boxes = get_evaluation_bboxes(
                 loader=trainer.datamodule.test_dataloader(),
                 model=pl_module,
