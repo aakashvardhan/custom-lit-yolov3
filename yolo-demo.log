@@ -1,0 +1,520 @@
+[{"stream_name":"stdout","time":13.927045238,"data":"Cloning into 'custom-lit-yolov3'...\r\n"}
+,{"stream_name":"stdout","time":14.742984722,"data":"remote: Enumerating objects: 268, done.\u001b[K\r\n"}
+,{"stream_name":"stdout","time":14.743026453,"data":"remote: Counting objects:   0% (1/268)\u001b[K\rremote: Counting objects:   1% (3/268)\u001b[K\rremote: Counting objects:   2% (6/268)\u001b[K\rremote: Counting objects:   3% (9/268)\u001b[K\rremote: Counting objects:   4% (11/268)\u001b[K\rremote: Counting objects:   5% (14/268)\u001b[K\rremote: Counting objects:   6% (17/268)\u001b[K\rremote: Counting objects:   7% (19/268)\u001b[K\rremote: Counting objects:   8% (22/268)\u001b[K\rremote: Counting objects:   9% (25/268)\u001b[K\rremote: Counting objects:  10% (27/268)\u001b[K\rremote: Counting objects:  11% (30/268)\u001b[K\rremote: Counting objects:  12% (33/268)\u001b[K\rremote: Counting objects:  13% (35/268)\u001b[K\rremote: Counting objects:  14% (38/268)\u001b[K\rremote: Counting objects:  15% (41/268)\u001b[K\rremote: Counting objects:  16% (43/268)\u001b[K\rremote: Counting objects:  17% (46/268)\u001b[K\rremote: Counting objects:  18% (49/268)\u001b[K\rremote: Counting objects:  19% (51/268)\u001b[K\rremote: Counting objects:  20% (54/268)\u001b[K\rremote: Counting objects:  21% (57/268)\u001b[K\rremote: Counting objects:  22% (59/268)\u001b[K\rremote: Counting objects:  23% (62/268)\u001b[K\rremote: Counting objects:  24% (65/268)\u001b[K\rremote: Counting objects:  25% (67/268)\u001b[K\rremote: Counting objects:  26% (70/268)\u001b[K\rremote: Counting objects:  27% (73/268)\u001b[K\rremote: Counting objects:  28% (76/268)\u001b[K\rremote: Counting objects:  29% (78/268)\u001b[K\rremote: Counting objects:  30% (81/268)\u001b[K\rremote: Counting objects:  31% (84/268)\u001b[K\rremote: Counting objects:  32% (86/268)\u001b[K\rremote: Counting objects:  33% (89/268)\u001b[K\rremote: Counting objects:  34% (92/268)\u001b[K\rremote: Counting objects:  35% (94/268)\u001b[K\rremote: Counting objects:  36% (97/268)\u001b[K\rremote: Counting objects:  37% (100/268)\u001b[K\rremote: Counting objects:  38% (102/268)\u001b[K\rremote: Counting objects:  39% (105/268)\u001b[K\rremote: Counting objects:  40% (108/268)\u001b[K\rremote: Counting objects:  41% (110/268)\u001b[K\rremote: Counting objects:  42% (113/268)\u001b[K\rremote: Counting objects:  43% (116/268)\u001b[K\rremote: Counting objects:  44% (118/268)\u001b[K\rremote: Counting objects:  45% (121/268)\u001b[K\rremote: Counting objects:  46% (124/268)\u001b[K\rremote: Counting objects:  47% (126/268)\u001b[K\rremote: Counting objects:  48% (129/268)\u001b[K\rremote: Counting objects:  49% (132/268)\u001b[K\rremote: Counting objects:  50% (134/268)\u001b[K\rremote: Counting objects:  51% (137/268)\u001b[K\rremote: Counting objects:  52% (140/268)\u001b[K\rremote: Counting objects:  53% (143/268)\u001b[K\rremote: Counting objects:  54% (145/268)\u001b[K\rremote: Counting objects:  55% (148/268)\u001b[K\rremote: Counting objects:  56% (151/268)\u001b[K\rremote: Counting objects:  57% (153/268)\u001b[K\rremote: Counting objects:  58% (156/268)\u001b[K\rremote: Counting objects:  59% (159/268)\u001b[K\rremote: Counting objects:  60% (161/268)\u001b[K\rremote: Counting objects:  61% (164/268)\u001b[K\rremote: Counting objects:  62% (167/268)\u001b[K\rremote: Counting objects:  63% (169/268)\u001b[K\rremote: Counting objects:  64% (172/268)\u001b[K\rremote: Counting objects:  65% (175/268)\u001b[K\rremote: Counting objects:  66% (177/268)\u001b[K\rremote: Counting objects:  67% (180/268)\u001b[K\rremote: Counting objects:  68% (183/268)\u001b[K\rremote: Counting objects:  69% (185/268)\u001b[K\rremote: Counting objects:  70% (188/268)\u001b[K\rremote: Counting objects:  71% (191/268)\u001b[K\rremote: Counting objects:  72% (193/268)\u001b[K\rremote: Counting objects:  73% (196/268)\u001b[K\rremote: Counting objects:  74% (199/268)\u001b[K\rremote: Counting objects:  75% (201/268)\u001b[K\rremote: Counting objects:  76% (204/268)\u001b[K\rremote: Counting objects:  77% (207/268)\u001b[K\rremote: Counting objects:  78% (210/268)\u001b[K\rremote: Counting objects:  79% (212/268)\u001b[K\rremote: Counting objects:  80% (215/268)\u001b[K\rremote: Counting objects:  81% (218/268)\u001b[K\rremote: Counting objects:  82% (220/268)\u001b[K\rremote: Counting objects:  83% (223/268)\u001b[K\rremote: Counting objects:  84% (226/268)\u001b[K\rremote: Counting objects:  85% (228/268)\u001b[K\rremote: Counting objects:  86% (231/268)\u001b[K\rremote: Counting objects:  87% (234/268)\u001b[K\rremote: Counting objects:  88% (236/268)\u001b[K\rremote: Counting objects:  89% (239/268)\u001b[K\rremote: Counting objects:  90% (242/268)\u001b[K\rremote: Counting objects:  91% (244/268)\u001b[K\rremote: Counting objects:  92% (247/268)\u001b[K\rremote: Counting objects:  93% (250/268)\u001b[K\rremote: Counting objects:  94% (252/268)\u001b[K\rremote: Counting objects:  95% (255/268)\u001b[K\rremote: Counting objects:  96% (258/268)\u001b[K\rremote: Counting objects:  97% (260/268)\u001b[K\rremote: Counting objects:  98% (263/268)\u001b[K\rremote: Counting objects:  99% (266/268)\u001b[K\rremote: Counting objects: 100% (268/268)\u001b[K\rremote: Counting objects: 100% (268/268), done.\u001b[K\r\n"}
+,{"stream_name":"stdout","time":14.743076641,"data":"remote: Compressing objects:   0% (1/188)\u001b[K\rremote: Compressing objects:   1% (2/188)\u001b[K\rremote: Compressing objects:   2% (4/188)\u001b[K\rremote: Compressing objects:   3% (6/188)\u001b[K\rremote: Compressing objects:   4% (8/188)\u001b[K\rremote: Compressing objects:   5% (10/188)\u001b[K\rremote: Compressing objects:   6% (12/188)\u001b[K\rremote: Compressing objects:   7% (14/188)\u001b[K\rremote: Compressing objects:   8% (16/188)\u001b[K\rremote: Compressing objects:   9% (17/188)\u001b[K\rremote: Compressing objects:  10% (19/188)\u001b[K\rremote: Compressing objects:  11% (21/188)\u001b[K\rremote: Compressing objects:  12% (23/188)\u001b[K\rremote: Compressing objects:  13% (25/188)\u001b[K\rremote: Compressing objects:  14% (27/188)\u001b[K\rremote: Compressing objects:  15% (29/188)\u001b[K\rremote: Compressing objects:  16% (31/188)\u001b[K\rremote: Compressing objects:  17% (32/188)\u001b[K\rremote: Compressing objects:  18% (34/188)\u001b[K\rremote: Compressing objects:  19% (36/188)\u001b[K\rremote: Compressing objects:  20% (38/188)\u001b[K\rremote: Compressing objects:  21% (40/188)\u001b[K\rremote: Compressing objects:  22% (42/188)\u001b[K\rremote: Compressing objects:  23% (44/188)\u001b[K\rremote: Compressing objects:  24% (46/188)\u001b[K\rremote: Compressing objects:  25% (47/188)\u001b[K\rremote: Compressing objects:  26% (49/188)\u001b[K\rremote: Compressing objects:  27% (51/188)\u001b[K\rremote: Compressing objects:  28% (53/188)\u001b[K\rremote: Compressing objects:  29% (55/188)\u001b[K\rremote: Compressing objects:  30% (57/188)\u001b[K\rremote: Compressing objects:  31% (59/188)\u001b[K\rremote: Compressing objects:  32% (61/188)\u001b[K\rremote: Compressing objects:  33% (63/188)\u001b[K\rremote: Compressing objects:  34% (64/188)\u001b[K\rremote: Compressing objects:  35% (66/188)\u001b[K\rremote: Compressing objects:  36% (68/188)\u001b[K\rremote: Compressing objects:  37% (70/188)\u001b[K\rremote: Compressing objects:  38% (72/188)\u001b[K\rremote: Compressing objects:  39% (74/188)\u001b[K\rremote: Compressing objects:  40% (76/188)\u001b[K\rremote: Compressing objects:  41% (78/188)\u001b[K\rremote: Compressing objects:  42% (79/188)\u001b[K\rremote: Compressing objects:  43% (81/188)\u001b[K\rremote: Compressing objects:  44% (83/188)\u001b[K\rremote: Compressing objects:  45% (85/188)\u001b[K\rremote: Compressing objects:  46% (87/188)\u001b[K\rremote: Compressing objects:  47% (89/188)\u001b[K\rremote: Compressing objects:  48% (91/188)\u001b[K\rremote: Compressing objects:  49% (93/188)\u001b[K\rremote: Compressing objects:  50% (94/188)\u001b[K\rremote: Compressing objects:  51% (96/188)\u001b[K\rremote: Compressing objects:  52% (98/188)\u001b[K\rremote: Compressing objects:  53% (100/188)\u001b[K\rremote: Compressing objects:  54% (102/188)\u001b[K\rremote: Compressing objects:  55% (104/188)\u001b[K\rremote: Compressing objects:  56% (106/188)\u001b[K\rremote: Compressing objects:  57% (108/188)\u001b[K\rremote: Compressing objects:  58% (110/188)\u001b[K\rremote: Compressing objects:  59% (111/188)\u001b[K\rremote: Compressing objects:  60% (113/188)\u001b[K\rremote: Compressing objects:  61% (115/188)\u001b[K\rremote: Compressing objects:  62% (117/188)\u001b[K\rremote: Compressing objects:  63% (119/188)\u001b[K\rremote: Compressing objects:  64% (121/188)\u001b[K\rremote: Compressing objects:  65% (123/188)\u001b[K\rremote: Compressing objects:  66% (125/188)\u001b[K\rremote: Compressing objects:  67% (126/188)\u001b[K\rremote: Compressing objects:  68% (128/188)\u001b[K\rremote: Compressing objects:  69% (130/188)\u001b[K\rremote: Compressing objects:  70% (132/188)\u001b[K\rremote: Compressing objects:  71% (134/188)\u001b[K\rremote: Compressing objects:  72% (136/188)\u001b[K\rremote: Compressing objects:  73% (138/188)\u001b[K\rremote: Compressing objects:  74% (140/188)\u001b[K\rremote: Compressing objects:  75% (141/188)\u001b[K\rremote: Compressing objects:  76% (143/188)\u001b[K\rremote: Compressing objects:  77% (145/188)\u001b[K\rremote: Compressing objects:  78% (147/188)\u001b[K\rremote: Compressing objects:  79% (149/188)\u001b[K\rremote: Compressing objects:  80% (151/188)\u001b[K\rremote: Compressing objects:  81% (153/188)\u001b[K\rremote: Compressing objects:  82% (155/188)\u001b[K\rremote: Compressing objects:  83% (157/188)\u001b[K\rremote: Compressing objects:  84% (158/188)\u001b[K\rremote: Compressing objects:  85% (160/188)\u001b[K\rremote: Compressing objects:  86% (162/188)\u001b[K\rremote: Compressing objects:  87% (164/188)\u001b[K\rremote: Compressing objects:  88% (166/188)\u001b[K\rremote: Compressing objects:  89% (168/188)\u001b[K\rremote: Compressing objects:  90% (170/188)\u001b[K\rremote: Compressing objects:  91% (172/188)\u001b[K\rremote: Compressing objects:  92% (173/188)\u001b[K\rremote: Compressing objects:  93% (175/188)\u001b[K\rremote: Compressing objects:  94% (177/188)\u001b[K\rremote: Compressing objects:  95% (179/188)\u001b[K\rremote: Compressing objects:  96% (181/188)\u001b[K\rremote: Compressing objects:  97% (183/188)\u001b[K\rremote: Compressing objects:  98% (185/188)\u001b[K\rremote: Compressing objects:  99% (187/188)\u001b[K\rremote: Compressing objects: 100% (188/188)\u001b[K\rremote: Compressing objects: 100% (188/188), done.\u001b[K\r\n"}
+,{"stream_name":"stdout","time":14.947444532,"data":"Receiving objects:   0% (1/268)\rReceiving objects:   1% (3/268)\rReceiving objects:   2% (6/268)\rReceiving objects:   3% (9/268)\rReceiving objects:   4% (11/268)\rReceiving objects:   5% (14/268)\rReceiving objects:   6% (17/268)\rReceiving objects:   7% (19/268)\rReceiving objects:   8% (22/268)\rReceiving objects:   9% (25/268)\rReceiving objects:  10% (27/268)\rReceiving objects:  11% (30/268)\rReceiving objects:  12% (33/268)\rReceiving objects:  13% (35/268)\rReceiving objects:  14% (38/268)\rReceiving objects:  15% (41/268)\rReceiving objects:  16% (43/268)\rReceiving objects:  17% (46/268)\rReceiving objects:  18% (49/268)\rReceiving objects:  19% (51/268)\rReceiving objects:  20% (54/268)\rReceiving objects:  21% (57/268)\rReceiving objects:  22% (59/268)\rReceiving objects:  23% (62/268)\rReceiving objects:  24% (65/268)\rReceiving objects:  25% (67/268)\rReceiving objects:  26% (70/268)\rReceiving objects:  27% (73/268)\rReceiving objects:  28% (76/268)\rReceiving objects:  29% (78/268)\rReceiving objects:  30% (81/268)\rReceiving objects:  31% (84/268)\rReceiving objects:  32% (86/268)\rReceiving objects:  33% (89/268)\rReceiving objects:  34% (92/268)\rReceiving objects:  35% (94/268)\rReceiving objects:  36% (97/268)\rReceiving objects:  37% (100/268)\rReceiving objects:  38% (102/268)\rReceiving objects:  39% (105/268)\rReceiving objects:  40% (108/268)\rReceiving objects:  41% (110/268)\rReceiving objects:  42% (113/268)\rReceiving objects:  43% (116/268)\rReceiving objects:  44% (118/268)\rReceiving objects:  45% (121/268)\rReceiving objects:  46% (124/268)\rReceiving objects:  47% (126/268)\rReceiving objects:  48% (129/268)\rReceiving objects:  49% (132/268)\rReceiving objects:  50% (134/268)\rReceiving objects:  51% (137/268)\rReceiving objects:  52% (140/268)\rReceiving objects:  53% (143/268)\rReceiving objects:  54% (145/268)\rReceiving objects:  55% (148/268)\rReceiving objects:  56% (151/268)\rReceiving objects:  57% (153/268)\rReceiving objects:  58% (156/268)\rReceiving objects:  59% (159/268)\rReceiving objects:  60% (161/268)\rReceiving objects:  61% (164/268)\rReceiving objects:  62% (167/268)\rReceiving objects:  63% (169/268)\rReceiving objects:  64% (172/268)\rReceiving objects:  65% (175/268)\rReceiving objects:  66% (177/268)\rReceiving objects:  67% (180/268)\rReceiving objects:  68% (183/268)\rReceiving objects:  69% (185/268)\rReceiving objects:  70% (188/268)\rReceiving objects:  71% (191/268)\rReceiving objects:  72% (193/268)\rReceiving objects:  73% (196/268)\rReceiving objects:  74% (199/268)\rReceiving objects:  75% (201/268)\rReceiving objects:  76% (204/268)\rremote: Total 268 (delta 116), reused 205 (delta 55), pack-reused 0\u001b[K\r\n"}
+,{"stream_name":"stdout","time":14.947560695,"data":"Receiving objects:  77% (207/268)\rReceiving objects:  78% (210/268)\rReceiving objects:  79% (212/268)\rReceiving objects:  80% (215/268)\rReceiving objects:  81% (218/268)\rReceiving objects:  82% (220/268)\rReceiving objects:  83% (223/268)\rReceiving objects:  84% (226/268)\rReceiving objects:  85% (228/268)\rReceiving objects:  86% (231/268)\rReceiving objects:  87% (234/268)\rReceiving objects:  88% (236/268)\rReceiving objects:  89% (239/268)\rReceiving objects:  90% (242/268)\rReceiving objects:  91% (244/268)\rReceiving objects:  92% (247/268)\rReceiving objects:  93% (250/268)\rReceiving objects:  94% (252/268)\rReceiving objects:  95% (255/268)\rReceiving objects:  96% (258/268)\rReceiving objects:  97% (260/268)\rReceiving objects:  98% (263/268)\rReceiving objects:  99% (266/268)\rReceiving objects: 100% (268/268)\rReceiving objects: 100% (268/268), 2.48 MiB | 12.78 MiB/s, done.\r\n"}
+,{"stream_name":"stdout","time":14.947577104,"data":"Resolving deltas:   0% (0/116)\rResolving deltas:   1% (2/116)\rResolving deltas:   2% (3/116)\rResolving deltas:   3% (4/116)\rResolving deltas:   4% (5/116)\rResolving deltas:   5% (6/116)\rResolving deltas:   6% (7/116)\rResolving deltas:   7% (9/116)\rResolving deltas:   8% (10/116)\rResolving deltas:   9% (11/116)\rResolving deltas:  10% (12/116)\rResolving deltas:  11% (13/116)\rResolving deltas:  12% (15/116)\rResolving deltas:  13% (16/116)\rResolving deltas:  14% (17/116)\rResolving deltas:  15% (18/116)\rResolving deltas:  16% (19/116)\rResolving deltas:  17% (20/116)\rResolving deltas:  18% (21/116)\rResolving deltas:  19% (23/116)\rResolving deltas:  20% (24/116)\rResolving deltas:  21% (25/116)\rResolving deltas:  22% (26/116)\rResolving deltas:  23% (27/116)\rResolving deltas:  24% (28/116)\rResolving deltas:  25% (29/116)\rResolving deltas:  26% (31/116)\rResolving deltas:  27% (32/116)\rResolving deltas:  28% (33/116)\rResolving deltas:  29% (34/116)\rResolving deltas:  30% (35/116)\rResolving deltas:  31% (36/116)\rResolving deltas:  32% (38/116)\rResolving deltas:  33% (39/116)\rResolving deltas:  34% (40/116)\rResolving deltas:  35% (41/116)\rResolving deltas:  36% (42/116)\rResolving deltas:  37% (43/116)\rResolving deltas:  38% (45/116)\rResolving deltas:  39% (46/116)\rResolving deltas:  40% (47/116)\rResolving deltas:  41% (48/116)\rResolving deltas:  42% (49/116)\rResolving deltas:  43% (50/116)\rResolving deltas:  44% (52/116)\rResolving deltas:  45% (53/116)\rResolving deltas:  46% (54/116)\rResolving deltas:  47% (55/116)\rResolving deltas:  48% (56/116)\rResolving deltas:  49% (57/116)\rResolving deltas:  50% (58/116)\rResolving deltas:  51% (60/116)\rResolving deltas:  52% (61/116)\rResolving deltas:  53% (62/116)\rResolving deltas:  54% (63/116)\rResolving deltas:  55% (64/116)\rResolving deltas:  56% (65/116)\rResolving deltas:  57% (67/116)\rResolving deltas:  58% (68/116)\rResolving deltas:  59% (69/116)\rResolving deltas:  60% (70/116)\rResolving deltas:  61% (71/116)\rResolving deltas:  62% (72/116)\rResolving deltas:  63% (74/116)\rResolving deltas:  64% (75/116)\rResolving deltas:  65% (76/116)\rResolving deltas:  66% (77/116)\rResolving deltas:  67% (78/116)\rResolving deltas:  68% (79/116)\rResolving deltas:  69% (81/116)\rResolving deltas:  70% (82/116)\rResolving deltas:  71% (83/116)\rResolving deltas:  72% (84/116)\rResolving deltas:  73% (85/116)\rResolving deltas:  74% (86/116)\rResolving deltas:  75% (87/116)\rResolving deltas:  76% (89/116)\rResolving deltas:  77% (90/116)\rResolving deltas:  78% (91/116)\rResolving deltas:  79% (92/116)\rResolving deltas:  80% (93/116)\rResolving deltas:  81% (94/116)\rResolving deltas:  82% (96/116)\rResolving deltas:  83% (97/116)\rResolving deltas:  84% (98/116)\rResolving deltas:  85% (99/116)\rResolving deltas:  86% (100/116)\rResolving deltas:  87% (101/116)\rResolving deltas:  88% (103/116)\rResolving deltas:  89% (104/116)\rResolving deltas:  90% (105/116)\rResolving deltas:  91% (106/116)\rResolving deltas:  92% (107/116)\rResolving deltas:  93% (108/116)\rResolving deltas:  94% (110/116)\rResolving deltas:  95% (111/116)\rResolving deltas:  96% (112/116)\rResolving deltas:  97% (113/116)\rResolving deltas:  98% (114/116)\rResolving deltas:  99% (115/116)\rResolving deltas: 100% (116/116)\rResolving deltas: 100% (116/116), done.\r\n"}
+,{"stream_name":"stdout","time":17.893178021,"data":"Collecting lightning (from -r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1))\r\n"}
+,{"stream_name":"stdout","time":17.893223032,"data":"  Obtaining dependency information for lightning from https://files.pythonhosted.org/packages/9e/8a/9642fdbdac8de47d68464ca3be32baca3f70a432aa374705d6b91da732eb/lightning-2.1.2-py3-none-any.whl.metadata\r\n"}
+,{"stream_name":"stdout","time":18.09724732,"data":"  Downloading lightning-2.1.2-py3-none-any.whl.metadata (61 kB)\r\n"}
+,{"stream_name":"stdout","time":18.199966613,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/61.8 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m20.5/61.8 kB\u001b[0m \u001b[31m2.0 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━\u001b[0m \u001b[32m51.2/61.8 kB\u001b[0m \u001b[31m779.3 kB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m61.8/61.8 kB\u001b[0m \u001b[31m506.4 kB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.25139467,"data":"\u001b[?25hCollecting pathlib (from -r /kaggle/working/custom-lit-yolov3/requirements.txt (line 2))\r\n"}
+,{"stream_name":"stdout","time":18.302509956,"data":"  Downloading pathlib-1.0.1-py3-none-any.whl (14 kB)\r\n"}
+,{"stream_name":"stdout","time":18.353566153,"data":"Collecting torchsummary (from -r /kaggle/working/custom-lit-yolov3/requirements.txt (line 3))\r\n"}
+,{"stream_name":"stdout","time":18.405188642,"data":"  Downloading torchsummary-1.5.1-py3-none-any.whl (2.8 kB)\r\n"}
+,{"stream_name":"stdout","time":18.456062229,"data":"Requirement already satisfied: kaggle in /opt/conda/lib/python3.10/site-packages (from -r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (1.5.16)\r\n"}
+,{"stream_name":"stdout","time":18.456111335,"data":"Requirement already satisfied: torchmetrics in /opt/conda/lib/python3.10/site-packages (from -r /kaggle/working/custom-lit-yolov3/requirements.txt (line 5)) (1.2.0)\r\n"}
+,{"stream_name":"stdout","time":18.507250405,"data":"Collecting torch_lr_finder (from -r /kaggle/working/custom-lit-yolov3/requirements.txt (line 6))\r\n"}
+,{"stream_name":"stdout","time":18.558315705,"data":"  Downloading torch_lr_finder-0.2.1-py3-none-any.whl (11 kB)\r\n"}
+,{"stream_name":"stdout","time":19.730177313,"data":"Requirement already satisfied: PyYAML\u003c8.0,\u003e=5.4 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (6.0.1)\r\n"}
+,{"stream_name":"stdout","time":19.730225955999998,"data":"Requirement already satisfied: fsspec[http]\u003c2025.0,\u003e2021.06.0 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (2023.10.0)\r\n"}
+,{"stream_name":"stdout","time":19.730234242,"data":"Requirement already satisfied: lightning-utilities\u003c2.0,\u003e=0.8.0 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (0.9.0)\r\n"}
+,{"stream_name":"stdout","time":19.730240402,"data":"Requirement already satisfied: numpy\u003c3.0,\u003e=1.17.2 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (1.24.3)\r\n"}
+,{"stream_name":"stdout","time":19.730246369,"data":"Requirement already satisfied: packaging\u003c25.0,\u003e=20.0 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (21.3)\r\n"}
+,{"stream_name":"stdout","time":19.730252004,"data":"Requirement already satisfied: torch\u003c4.0,\u003e=1.12.0 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (2.0.0)\r\n"}
+,{"stream_name":"stdout","time":19.730257686,"data":"Requirement already satisfied: tqdm\u003c6.0,\u003e=4.57.0 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (4.66.1)\r\n"}
+,{"stream_name":"stdout","time":19.73026352,"data":"Requirement already satisfied: typing-extensions\u003c6.0,\u003e=4.0.0 in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (4.5.0)\r\n"}
+,{"stream_name":"stdout","time":19.7302691,"data":"Requirement already satisfied: pytorch-lightning in /opt/conda/lib/python3.10/site-packages (from lightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (2.1.1)\r\n"}
+,{"stream_name":"stdout","time":19.730274816,"data":"Requirement already satisfied: six\u003e=1.10 in /opt/conda/lib/python3.10/site-packages (from kaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (1.16.0)\r\n"}
+,{"stream_name":"stdout","time":19.730280377,"data":"Requirement already satisfied: certifi in /opt/conda/lib/python3.10/site-packages (from kaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (2023.7.22)\r\n"}
+,{"stream_name":"stdout","time":19.730288342,"data":"Requirement already satisfied: python-dateutil in /opt/conda/lib/python3.10/site-packages (from kaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (2.8.2)\r\n"}
+,{"stream_name":"stdout","time":19.730293984,"data":"Requirement already satisfied: requests in /opt/conda/lib/python3.10/site-packages (from kaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (2.31.0)\r\n"}
+,{"stream_name":"stdout","time":19.730299374,"data":"Requirement already satisfied: python-slugify in /opt/conda/lib/python3.10/site-packages (from kaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (8.0.1)\r\n"}
+,{"stream_name":"stdout","time":19.730320437,"data":"Requirement already satisfied: urllib3 in /opt/conda/lib/python3.10/site-packages (from kaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (1.26.15)\r\n"}
+,{"stream_name":"stdout","time":19.73032863,"data":"Requirement already satisfied: bleach in /opt/conda/lib/python3.10/site-packages (from kaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (6.0.0)\r\n"}
+,{"stream_name":"stdout","time":19.935060396,"data":"Requirement already satisfied: matplotlib in /opt/conda/lib/python3.10/site-packages (from torch_lr_finder-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 6)) (3.7.3)\r\n"}
+,{"stream_name":"stdout","time":19.986055601,"data":"Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in /opt/conda/lib/python3.10/site-packages (from fsspec[http]\u003c2025.0,\u003e2021.06.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (3.8.5)\r\n"}
+,{"stream_name":"stdout","time":20.037241248,"data":"Requirement already satisfied: pyparsing!=3.0.5,\u003e=2.0.2 in /opt/conda/lib/python3.10/site-packages (from packaging\u003c25.0,\u003e=20.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (3.0.9)\r\n"}
+,{"stream_name":"stdout","time":20.03729405,"data":"Requirement already satisfied: filelock in /opt/conda/lib/python3.10/site-packages (from torch\u003c4.0,\u003e=1.12.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (3.12.2)\r\n"}
+,{"stream_name":"stdout","time":20.037304288,"data":"Requirement already satisfied: sympy in /opt/conda/lib/python3.10/site-packages (from torch\u003c4.0,\u003e=1.12.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (1.12)\r\n"}
+,{"stream_name":"stdout","time":20.037308764,"data":"Requirement already satisfied: networkx in /opt/conda/lib/python3.10/site-packages (from torch\u003c4.0,\u003e=1.12.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (3.1)\r\n"}
+,{"stream_name":"stdout","time":20.037312794,"data":"Requirement already satisfied: jinja2 in /opt/conda/lib/python3.10/site-packages (from torch\u003c4.0,\u003e=1.12.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (3.1.2)\r\n"}
+,{"stream_name":"stdout","time":20.089054617,"data":"Requirement already satisfied: webencodings in /opt/conda/lib/python3.10/site-packages (from bleach-\u003ekaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (0.5.1)\r\n"}
+,{"stream_name":"stdout","time":20.089097513,"data":"Requirement already satisfied: contourpy\u003e=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib-\u003etorch_lr_finder-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 6)) (1.1.0)\r\n"}
+,{"stream_name":"stdout","time":20.089105421,"data":"Requirement already satisfied: cycler\u003e=0.10 in /opt/conda/lib/python3.10/site-packages (from matplotlib-\u003etorch_lr_finder-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 6)) (0.11.0)\r\n"}
+,{"stream_name":"stdout","time":20.089111571,"data":"Requirement already satisfied: fonttools\u003e=4.22.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib-\u003etorch_lr_finder-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 6)) (4.42.1)\r\n"}
+,{"stream_name":"stdout","time":20.089117795,"data":"Requirement already satisfied: kiwisolver\u003e=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib-\u003etorch_lr_finder-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 6)) (1.4.4)\r\n"}
+,{"stream_name":"stdout","time":20.089135121,"data":"Requirement already satisfied: pillow\u003e=6.2.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib-\u003etorch_lr_finder-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 6)) (10.1.0)\r\n"}
+,{"stream_name":"stdout","time":20.089144723,"data":"Requirement already satisfied: text-unidecode\u003e=1.3 in /opt/conda/lib/python3.10/site-packages (from python-slugify-\u003ekaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (1.3)\r\n"}
+,{"stream_name":"stdout","time":20.293590178,"data":"Requirement already satisfied: charset-normalizer\u003c4,\u003e=2 in /opt/conda/lib/python3.10/site-packages (from requests-\u003ekaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (3.2.0)\r\n"}
+,{"stream_name":"stdout","time":20.293630593,"data":"Requirement already satisfied: idna\u003c4,\u003e=2.5 in /opt/conda/lib/python3.10/site-packages (from requests-\u003ekaggle-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 4)) (3.4)\r\n"}
+,{"stream_name":"stdout","time":20.345269752,"data":"Requirement already satisfied: attrs\u003e=17.3.0 in /opt/conda/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c2025.0,\u003e2021.06.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (23.1.0)\r\n"}
+,{"stream_name":"stdout","time":20.345321817,"data":"Requirement already satisfied: multidict\u003c7.0,\u003e=4.5 in /opt/conda/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c2025.0,\u003e2021.06.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (6.0.4)\r\n"}
+,{"stream_name":"stdout","time":20.345331499,"data":"Requirement already satisfied: async-timeout\u003c5.0,\u003e=4.0.0a3 in /opt/conda/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c2025.0,\u003e2021.06.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (4.0.3)\r\n"}
+,{"stream_name":"stdout","time":20.34533815,"data":"Requirement already satisfied: yarl\u003c2.0,\u003e=1.0 in /opt/conda/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c2025.0,\u003e2021.06.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (1.9.2)\r\n"}
+,{"stream_name":"stdout","time":20.345344952,"data":"Requirement already satisfied: frozenlist\u003e=1.1.1 in /opt/conda/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c2025.0,\u003e2021.06.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (1.4.0)\r\n"}
+,{"stream_name":"stdout","time":20.345351255,"data":"Requirement already satisfied: aiosignal\u003e=1.1.2 in /opt/conda/lib/python3.10/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c2025.0,\u003e2021.06.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (1.3.1)\r\n"}
+,{"stream_name":"stdout","time":20.549086294,"data":"Requirement already satisfied: MarkupSafe\u003e=2.0 in /opt/conda/lib/python3.10/site-packages (from jinja2-\u003etorch\u003c4.0,\u003e=1.12.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (2.1.3)\r\n"}
+,{"stream_name":"stdout","time":20.600789392,"data":"Requirement already satisfied: mpmath\u003e=0.19 in /opt/conda/lib/python3.10/site-packages (from sympy-\u003etorch\u003c4.0,\u003e=1.12.0-\u003elightning-\u003e-r /kaggle/working/custom-lit-yolov3/requirements.txt (line 1)) (1.3.0)\r\n"}
+,{"stream_name":"stdout","time":20.804711265999998,"data":"Downloading lightning-2.1.2-py3-none-any.whl (2.0 MB)\r\n"}
+,{"stream_name":"stdout","time":21.060470681,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/2.0 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/2.0 MB\u001b[0m \u001b[31m2.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.2/2.0 MB\u001b[0m \u001b[31m2.3 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.3/2.0 MB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.5/2.0 MB\u001b[0m \u001b[31m3.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.9/2.0 MB\u001b[0m \u001b[31m5.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━\u001b[0m \u001b[32m1.7/2.0 MB\u001b[0m \u001b[31m8.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m2.0/2.0 MB\u001b[0m \u001b[31m8.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.0/2.0 MB\u001b[0m \u001b[31m7.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":33.197618421,"data":"\u001b[?25hInstalling collected packages: torchsummary, pathlib, torch_lr_finder, lightning\r\n"}
+,{"stream_name":"stdout","time":34.267898362,"data":"Successfully installed lightning-2.1.2 pathlib-1.0.1 torch_lr_finder-0.2.1 torchsummary-1.5.1\r\n"}
+,{"stream_name":"stderr","time":47.964288838,"data":"/opt/conda/lib/python3.10/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version \u003e=1.16.5 and \u003c1.23.0 is required for this version of SciPy (detected version 1.24.3\n"}
+,{"stream_name":"stderr","time":47.964346717,"data":"  warnings.warn(f\"A NumPy version \u003e={np_minversion} and \u003c{np_maxversion}\"\n"}
+,{"stream_name":"stderr","time":52.445241669,"data":"INFO: Seed set to 1\n"}
+,{"stream_name":"stderr","time":54.494708804,"data":"INFO: Trainer will use only 1 of 2 GPUs because it is running inside an interactive / notebook environment. You may try to set `Trainer(devices=2)` but please note that multi-GPU inside interactive / notebook environments is considered experimental and unstable. Your mileage may vary.\n"}
+,{"stream_name":"stderr","time":54.602501642,"data":"INFO: Using 16bit Automatic Mixed Precision (AMP)\n"}
+,{"stream_name":"stderr","time":54.604236242,"data":"INFO: Trainer already configured with model summary callbacks: [\u003cclass 'lightning.pytorch.callbacks.rich_model_summary.RichModelSummary'\u003e]. Skipping setting a default `ModelSummary` callback.\n"}
+,{"stream_name":"stderr","time":54.693081518,"data":"INFO: GPU available: True (cuda), used: True\n"}
+,{"stream_name":"stderr","time":54.792608165,"data":"INFO: TPU available: False, using: 0 TPU cores\n"}
+,{"stream_name":"stderr","time":54.79399328,"data":"INFO: IPU available: False, using: 0 IPUs\n"}
+,{"stream_name":"stderr","time":54.795313908,"data":"INFO: HPU available: False, using: 0 HPUs\n"}
+,{"stream_name":"stderr","time":55.246824992,"data":"WARNING: Missing logger folder: logs/model\n"}
+,{"stream_name":"stderr","time":78.962623308,"data":"INFO: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]\n"}
+,{"stream_name":"stderr","time":155.684374767,"data":"INFO: `Trainer.fit` stopped: `max_steps=40` reached.\n"}
+,{"stream_name":"stderr","time":155.698592783,"data":"INFO: Learning rate set to 0.0031622776601683794\n"}
+,{"stream_name":"stderr","time":155.70309518,"data":"INFO: Restoring states from the checkpoint path at /kaggle/working/.lr_find_2f091448-75b4-4acd-ac86-ed99bccafb57.ckpt\n"}
+,{"stream_name":"stderr","time":156.671338383,"data":"INFO: Restored all states from the checkpoint at /kaggle/working/.lr_find_2f091448-75b4-4acd-ac86-ed99bccafb57.ckpt\n"}
+,{"stream_name":"stdout","time":160.787240235,"data":"new_lr=0.0031622776601683794\n"}
+,{"stream_name":"stdout","time":162.885102765,"data":"ls: cannot access '/kaggle/working/checkpoints': No such file or directory\r\n"}
+,{"stream_name":"stderr","time":163.476890345,"data":"INFO: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]\n"}
+,{"stream_name":"stdout","time":839.974487429,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":1233.154288436,"data":"INFO: Epoch 0, global step 518: 'val_loss' reached 23.36305 (best 23.36305), saving model to 'checkpoints/model-epoch=00-val_loss=23.36-val_loss=23.363049.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":1233.387828471,"data":"Train accuracy: 30.123\n"}
+,{"stream_name":"stdout","time":1233.387876708,"data":"No obj accuracy: 0.037\n"}
+,{"stream_name":"stdout","time":1233.387886565,"data":"Obj accuracy: 99.838\n"}
+,{"stream_name":"stdout","time":1897.783881131,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":2289.571859633,"data":"INFO: Epoch 1, global step 1036: 'val_loss' reached 18.30767 (best 18.30767), saving model to 'checkpoints/model-epoch=01-val_loss=18.31-val_loss=18.307667.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":2289.773924764,"data":"Train accuracy: 32.126\n"}
+,{"stream_name":"stdout","time":2289.773966621,"data":"No obj accuracy: 8.204\n"}
+,{"stream_name":"stdout","time":2289.773974471,"data":"Obj accuracy: 65.915\n"}
+,{"stream_name":"stdout","time":2960.474827053,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":3353.796619672,"data":"INFO: Epoch 2, global step 1554: 'val_loss' reached 15.91349 (best 15.91349), saving model to 'checkpoints/model-epoch=02-val_loss=15.91-val_loss=15.913491.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":3354.003485642,"data":"Train accuracy: 33.563\n"}
+,{"stream_name":"stdout","time":3354.003524032,"data":"No obj accuracy: 59.531\n"}
+,{"stream_name":"stdout","time":3354.003534013,"data":"Obj accuracy: 38.991\n"}
+,{"stream_name":"stdout","time":4021.741909795,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":4416.197913696,"data":"INFO: Epoch 3, global step 2072: 'val_loss' reached 14.45065 (best 14.45065), saving model to 'checkpoints/model-epoch=03-val_loss=14.45-val_loss=14.450647.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":4416.435021365,"data":"Train accuracy: 35.267\n"}
+,{"stream_name":"stdout","time":4416.435069392,"data":"No obj accuracy: 94.637\n"}
+,{"stream_name":"stdout","time":4416.435076727,"data":"Obj accuracy: 26.192\n"}
+,{"stream_name":"stdout","time":5084.156415972,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":5460.129767207,"data":"Train accuracy: 37.264\n"}
+,{"stream_name":"stdout","time":5460.129828523,"data":"No obj accuracy: 95.919\n"}
+,{"stream_name":"stdout","time":5460.129836233,"data":"Obj accuracy: 28.352\n"}
+,{"stream_name":"stdout","time":5460.129841837,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":5534.064891619,"data":"Test accuracy: 45.769\n"}
+,{"stream_name":"stdout","time":5534.064936314,"data":"No obj accuracy: 97.194\n"}
+,{"stream_name":"stdout","time":5534.064959584,"data":"Obj accuracy: 20.665\n"}
+,{"stream_name":"stdout","time":5534.064966571,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":5540.935971323,"data":"INFO: Epoch 4, global step 2590: 'val_loss' reached 13.90762 (best 13.90762), saving model to 'checkpoints/model-epoch=04-val_loss=13.91-val_loss=13.907622.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":6210.438287921,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":6591.925725679,"data":"INFO: Epoch 5, global step 3108: 'val_loss' reached 12.20285 (best 12.20285), saving model to 'checkpoints/model-epoch=05-val_loss=12.20-val_loss=12.202848.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":6592.132169261,"data":"Train accuracy: 40.502\n"}
+,{"stream_name":"stdout","time":6592.132206647,"data":"No obj accuracy: 96.010\n"}
+,{"stream_name":"stdout","time":6592.132214143,"data":"Obj accuracy: 39.553\n"}
+,{"stream_name":"stdout","time":7275.256955978,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":7676.055784641,"data":"INFO: Epoch 6, global step 3626: 'val_loss' reached 12.25682 (best 12.20285), saving model to 'checkpoints/model-epoch=06-val_loss=12.26-val_loss=12.256819.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":7676.32867979,"data":"Train accuracy: 41.456\n"}
+,{"stream_name":"stdout","time":7676.328734242,"data":"No obj accuracy: 96.785\n"}
+,{"stream_name":"stdout","time":7676.328740687,"data":"Obj accuracy: 40.063\n"}
+,{"stream_name":"stdout","time":8348.510376128,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":8747.515592727,"data":"INFO: Epoch 7, global step 4144: 'val_loss' reached 10.35764 (best 10.35764), saving model to 'checkpoints/model-epoch=07-val_loss=10.36-val_loss=10.357643.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":8748.066143333,"data":"Train accuracy: 46.533\n"}
+,{"stream_name":"stdout","time":8748.066208779,"data":"No obj accuracy: 97.184\n"}
+,{"stream_name":"stdout","time":8748.066216735,"data":"Obj accuracy: 42.583\n"}
+,{"stream_name":"stdout","time":9423.054811574,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":9820.022615692,"data":"INFO: Epoch 8, global step 4662: 'val_loss' reached 10.30318 (best 10.30318), saving model to 'checkpoints/model-epoch=08-val_loss=10.30-val_loss=10.303179.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":9820.233740773,"data":"Train accuracy: 49.084\n"}
+,{"stream_name":"stdout","time":9820.233774258,"data":"No obj accuracy: 96.520\n"}
+,{"stream_name":"stdout","time":9820.233781176,"data":"Obj accuracy: 51.813\n"}
+,{"stream_name":"stdout","time":10482.37685284,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":10871.148085227,"data":"Train accuracy: 47.260\n"}
+,{"stream_name":"stdout","time":10871.148132883,"data":"No obj accuracy: 97.057\n"}
+,{"stream_name":"stdout","time":10871.148140324,"data":"Obj accuracy: 47.569\n"}
+,{"stream_name":"stdout","time":10871.148146011,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":10944.818470827,"data":"Test accuracy: 59.800\n"}
+,{"stream_name":"stdout","time":10944.818523275,"data":"No obj accuracy: 98.000\n"}
+,{"stream_name":"stdout","time":10944.818546091,"data":"Obj accuracy: 39.817\n"}
+,{"stream_name":"stdout","time":10944.818552619,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":10951.630698861,"data":"INFO: Epoch 9, global step 5180: 'val_loss' reached 10.06137 (best 10.06137), saving model to 'checkpoints/model-epoch=09-val_loss=10.06-val_loss=10.061370.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":11607.539888165,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":11999.222720606,"data":"INFO: Epoch 10, global step 5698: 'val_loss' was not in top 3\n"}
+,{"stream_name":"stdout","time":11999.430978409,"data":"Train accuracy: 49.534\n"}
+,{"stream_name":"stdout","time":11999.431014621,"data":"No obj accuracy: 97.423\n"}
+,{"stream_name":"stdout","time":11999.431021611,"data":"Obj accuracy: 49.782\n"}
+,{"stream_name":"stdout","time":12674.623601512,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":13073.468963761,"data":"INFO: Epoch 11, global step 6216: 'val_loss' reached 9.53466 (best 9.53466), saving model to 'checkpoints/model-epoch=11-val_loss=9.53-val_loss=9.534660.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":13073.68020287,"data":"Train accuracy: 53.379\n"}
+,{"stream_name":"stdout","time":13073.680246732,"data":"No obj accuracy: 96.351\n"}
+,{"stream_name":"stdout","time":13073.680254716,"data":"Obj accuracy: 58.188\n"}
+,{"stream_name":"stdout","time":13740.74637466,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":14133.093717293,"data":"INFO: Epoch 12, global step 6734: 'val_loss' reached 9.81364 (best 9.53466), saving model to 'checkpoints/model-epoch=12-val_loss=9.81-val_loss=9.813640.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":14133.302079762,"data":"Train accuracy: 55.640\n"}
+,{"stream_name":"stdout","time":14133.302114816,"data":"No obj accuracy: 97.150\n"}
+,{"stream_name":"stdout","time":14133.302123412,"data":"Obj accuracy: 53.655\n"}
+,{"stream_name":"stdout","time":14798.458840196,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":15190.136231558,"data":"INFO: Epoch 13, global step 7252: 'val_loss' reached 8.94265 (best 8.94265), saving model to 'checkpoints/model-epoch=13-val_loss=8.94-val_loss=8.942648.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":15190.368425394,"data":"Train accuracy: 56.729\n"}
+,{"stream_name":"stdout","time":15190.36845399,"data":"No obj accuracy: 96.764\n"}
+,{"stream_name":"stdout","time":15190.368460325,"data":"Obj accuracy: 59.244\n"}
+,{"stream_name":"stdout","time":15865.914812213,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":16258.353267251,"data":"Train accuracy: 58.900\n"}
+,{"stream_name":"stdout","time":16258.353320875,"data":"No obj accuracy: 97.430\n"}
+,{"stream_name":"stdout","time":16258.353327643,"data":"Obj accuracy: 58.302\n"}
+,{"stream_name":"stdout","time":16258.353332993,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":16331.988412477,"data":"Test accuracy: 70.346\n"}
+,{"stream_name":"stdout","time":16331.98845782,"data":"No obj accuracy: 98.380\n"}
+,{"stream_name":"stdout","time":16331.988464055,"data":"Obj accuracy: 51.701\n"}
+,{"stream_name":"stdout","time":16331.988469188,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":16338.328208227,"data":"INFO: Epoch 14, global step 7770: 'val_loss' reached 8.61645 (best 8.61645), saving model to 'checkpoints/model-epoch=14-val_loss=8.62-val_loss=8.616450.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":17008.092364148,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":17400.202471462,"data":"INFO: Epoch 15, global step 8288: 'val_loss' reached 8.24273 (best 8.24273), saving model to 'checkpoints/model-epoch=15-val_loss=8.24-val_loss=8.242726.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":17400.425370896,"data":"Train accuracy: 63.066\n"}
+,{"stream_name":"stdout","time":17400.425397016,"data":"No obj accuracy: 97.682\n"}
+,{"stream_name":"stdout","time":17400.425403306,"data":"Obj accuracy: 56.806\n"}
+,{"stream_name":"stdout","time":18071.883823978,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":18467.301304127,"data":"INFO: Epoch 16, global step 8806: 'val_loss' reached 8.23662 (best 8.23662), saving model to 'checkpoints/model-epoch=16-val_loss=8.24-val_loss=8.236624.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":18467.511614779,"data":"Train accuracy: 63.359\n"}
+,{"stream_name":"stdout","time":18467.511659691,"data":"No obj accuracy: 97.309\n"}
+,{"stream_name":"stdout","time":18467.511667465,"data":"Obj accuracy: 60.852\n"}
+,{"stream_name":"stdout","time":19142.453513246,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":19535.572708957,"data":"INFO: Epoch 17, global step 9324: 'val_loss' reached 8.14764 (best 8.14764), saving model to 'checkpoints/model-epoch=17-val_loss=8.15-val_loss=8.147635.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":19535.782386034,"data":"Train accuracy: 63.400\n"}
+,{"stream_name":"stdout","time":19535.782446647,"data":"No obj accuracy: 97.689\n"}
+,{"stream_name":"stdout","time":19535.782460686,"data":"Obj accuracy: 56.833\n"}
+,{"stream_name":"stdout","time":20203.15968532,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":20599.078490794,"data":"INFO: Epoch 18, global step 9842: 'val_loss' reached 8.08917 (best 8.08917), saving model to 'checkpoints/model-epoch=18-val_loss=8.09-val_loss=8.089172.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":20599.358816589,"data":"Train accuracy: 64.941\n"}
+,{"stream_name":"stdout","time":20599.358870929,"data":"No obj accuracy: 97.435\n"}
+,{"stream_name":"stdout","time":20599.35887926,"data":"Obj accuracy: 60.695\n"}
+,{"stream_name":"stdout","time":21269.993077212,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":21661.413078246,"data":"Train accuracy: 65.068\n"}
+,{"stream_name":"stdout","time":21661.413136698,"data":"No obj accuracy: 97.370\n"}
+,{"stream_name":"stdout","time":21661.413144768,"data":"Obj accuracy: 62.051\n"}
+,{"stream_name":"stdout","time":21661.41316424,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":21735.216959012,"data":"Test accuracy: 74.741\n"}
+,{"stream_name":"stdout","time":21735.217006817,"data":"No obj accuracy: 98.559\n"}
+,{"stream_name":"stdout","time":21735.217015995,"data":"Obj accuracy: 53.430\n"}
+,{"stream_name":"stdout","time":21735.217021479,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":21741.870671764,"data":"INFO: Epoch 19, global step 10360: 'val_loss' reached 7.27742 (best 7.27742), saving model to 'checkpoints/model-epoch=19-val_loss=7.28-val_loss=7.277421.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":22402.147910144,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":22782.955274007,"data":"INFO: Epoch 20, global step 10878: 'val_loss' reached 6.95866 (best 6.95866), saving model to 'checkpoints/model-epoch=20-val_loss=6.96-val_loss=6.958660.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":22783.226735789,"data":"Train accuracy: 69.403\n"}
+,{"stream_name":"stdout","time":22783.226770485,"data":"No obj accuracy: 97.584\n"}
+,{"stream_name":"stdout","time":22783.22677665,"data":"Obj accuracy: 62.017\n"}
+,{"stream_name":"stdout","time":23421.471494557,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":23797.281004522,"data":"INFO: Epoch 21, global step 11396: 'val_loss' reached 7.40964 (best 6.95866), saving model to 'checkpoints/model-epoch=21-val_loss=7.41-val_loss=7.409638.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":23797.489347775,"data":"Train accuracy: 67.910\n"}
+,{"stream_name":"stdout","time":23797.489398042,"data":"No obj accuracy: 97.457\n"}
+,{"stream_name":"stdout","time":23797.489403237,"data":"Obj accuracy: 63.884\n"}
+,{"stream_name":"stdout","time":24427.862738497,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":24818.349224312,"data":"INFO: Epoch 22, global step 11914: 'val_loss' reached 7.37866 (best 6.95866), saving model to 'checkpoints/model-epoch=22-val_loss=7.38-val_loss=7.378658.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":24818.643556253,"data":"Train accuracy: 70.770\n"}
+,{"stream_name":"stdout","time":24818.643593523,"data":"No obj accuracy: 97.462\n"}
+,{"stream_name":"stdout","time":24818.643600315,"data":"Obj accuracy: 64.251\n"}
+,{"stream_name":"stdout","time":25494.676497895,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":25876.535818376,"data":"INFO: Epoch 23, global step 12432: 'val_loss' reached 7.22678 (best 6.95866), saving model to 'checkpoints/model-epoch=23-val_loss=7.23-val_loss=7.226784.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":25876.79252713,"data":"Train accuracy: 72.619\n"}
+,{"stream_name":"stdout","time":25876.792565483,"data":"No obj accuracy: 97.667\n"}
+,{"stream_name":"stdout","time":25876.792572663,"data":"Obj accuracy: 63.766\n"}
+,{"stream_name":"stdout","time":26524.740794572,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":26908.357570083,"data":"Train accuracy: 73.720\n"}
+,{"stream_name":"stdout","time":26908.357609783,"data":"No obj accuracy: 97.890\n"}
+,{"stream_name":"stdout","time":26908.357616447,"data":"Obj accuracy: 62.220\n"}
+,{"stream_name":"stdout","time":26908.357621487,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":26981.960122243,"data":"Test accuracy: 81.743\n"}
+,{"stream_name":"stdout","time":26981.960173825,"data":"No obj accuracy: 98.724\n"}
+,{"stream_name":"stdout","time":26981.960182935,"data":"Obj accuracy: 56.761\n"}
+,{"stream_name":"stdout","time":26981.960188549,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":26988.093932177,"data":"INFO: Epoch 24, global step 12950: 'val_loss' reached 7.07304 (best 6.95866), saving model to 'checkpoints/model-epoch=24-val_loss=7.07-val_loss=7.073043.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":27637.130250259,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":28013.289810623,"data":"INFO: Epoch 25, global step 13468: 'val_loss' reached 6.32038 (best 6.32038), saving model to 'checkpoints/model-epoch=25-val_loss=6.32-val_loss=6.320380.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":28013.497653612,"data":"Train accuracy: 73.892\n"}
+,{"stream_name":"stdout","time":28013.497694667,"data":"No obj accuracy: 97.709\n"}
+,{"stream_name":"stdout","time":28013.497703166,"data":"Obj accuracy: 64.088\n"}
+,{"stream_name":"stdout","time":28655.628102063,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":29029.425200602,"data":"INFO: Epoch 26, global step 13986: 'val_loss' reached 6.70739 (best 6.32038), saving model to 'checkpoints/model-epoch=26-val_loss=6.71-val_loss=6.707386.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":29029.639088473,"data":"Train accuracy: 73.146\n"}
+,{"stream_name":"stdout","time":29029.639117095,"data":"No obj accuracy: 97.843\n"}
+,{"stream_name":"stdout","time":29029.639124177,"data":"Obj accuracy: 64.651\n"}
+,{"stream_name":"stdout","time":29662.884708638,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":30023.863247659,"data":"INFO: Epoch 27, global step 14504: 'val_loss' reached 6.25032 (best 6.25032), saving model to 'checkpoints/model-epoch=27-val_loss=6.25-val_loss=6.250317.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":30024.103755365,"data":"Train accuracy: 74.504\n"}
+,{"stream_name":"stdout","time":30024.103790253,"data":"No obj accuracy: 97.787\n"}
+,{"stream_name":"stdout","time":30024.103813837,"data":"Obj accuracy: 64.925\n"}
+,{"stream_name":"stdout","time":30646.597856011,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":31040.659109558,"data":"INFO: Epoch 28, global step 15022: 'val_loss' reached 5.87317 (best 5.87317), saving model to 'checkpoints/model-epoch=28-val_loss=5.87-val_loss=5.873172.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":31040.935929103,"data":"Train accuracy: 76.755\n"}
+,{"stream_name":"stdout","time":31040.9359795,"data":"No obj accuracy: 97.948\n"}
+,{"stream_name":"stdout","time":31040.935985268,"data":"Obj accuracy: 65.158\n"}
+,{"stream_name":"stdout","time":31669.569298605,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":32032.372192367,"data":"Train accuracy: 76.953\n"}
+,{"stream_name":"stdout","time":32032.37225462,"data":"No obj accuracy: 98.101\n"}
+,{"stream_name":"stdout","time":32032.372263304,"data":"Obj accuracy: 64.338\n"}
+,{"stream_name":"stdout","time":32032.372268959,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":32106.009412785,"data":"Test accuracy: 83.150\n"}
+,{"stream_name":"stdout","time":32106.009447229,"data":"No obj accuracy: 98.953\n"}
+,{"stream_name":"stdout","time":32106.00945402,"data":"Obj accuracy: 58.099\n"}
+,{"stream_name":"stdout","time":32106.009460025,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":32112.237895172,"data":"INFO: Epoch 29, global step 15540: 'val_loss' reached 5.90518 (best 5.87317), saving model to 'checkpoints/model-epoch=29-val_loss=5.91-val_loss=5.905181.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":32751.684476311,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":33127.138892489,"data":"INFO: Epoch 30, global step 16058: 'val_loss' reached 5.83132 (best 5.83132), saving model to 'checkpoints/model-epoch=30-val_loss=5.83-val_loss=5.831320.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":33127.348457643,"data":"Train accuracy: 78.289\n"}
+,{"stream_name":"stdout","time":33127.34849569,"data":"No obj accuracy: 98.030\n"}
+,{"stream_name":"stdout","time":33127.34850242,"data":"Obj accuracy: 65.045\n"}
+,{"stream_name":"stdout","time":33813.817803688,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":34224.486606031,"data":"INFO: Epoch 31, global step 16576: 'val_loss' reached 5.64410 (best 5.64410), saving model to 'checkpoints/model-epoch=31-val_loss=5.64-val_loss=5.644104.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":34224.687845593,"data":"Train accuracy: 78.882\n"}
+,{"stream_name":"stdout","time":34224.687871337,"data":"No obj accuracy: 98.145\n"}
+,{"stream_name":"stdout","time":34224.687875705,"data":"Obj accuracy: 64.730\n"}
+,{"stream_name":"stdout","time":34913.497402704,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":35314.860113663,"data":"INFO: Epoch 32, global step 17094: 'val_loss' reached 5.72858 (best 5.64410), saving model to 'checkpoints/model-epoch=32-val_loss=5.73-val_loss=5.728582.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":35315.130779688,"data":"Train accuracy: 79.134\n"}
+,{"stream_name":"stdout","time":35315.130824242,"data":"No obj accuracy: 97.901\n"}
+,{"stream_name":"stdout","time":35315.130832716,"data":"Obj accuracy: 66.400\n"}
+,{"stream_name":"stdout","time":35999.589398939,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":36406.397419618,"data":"INFO: Epoch 33, global step 17612: 'val_loss' reached 5.58176 (best 5.58176), saving model to 'checkpoints/model-epoch=33-val_loss=5.58-val_loss=5.581760.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":36406.598703003,"data":"Train accuracy: 80.395\n"}
+,{"stream_name":"stdout","time":36406.598752095,"data":"No obj accuracy: 98.052\n"}
+,{"stream_name":"stdout","time":36406.598761289,"data":"Obj accuracy: 66.224\n"}
+,{"stream_name":"stdout","time":37095.536581322,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":37503.447352234,"data":"Train accuracy: 81.133\n"}
+,{"stream_name":"stdout","time":37503.447404094,"data":"No obj accuracy: 98.112\n"}
+,{"stream_name":"stdout","time":37503.447412361,"data":"Obj accuracy: 66.185\n"}
+,{"stream_name":"stdout","time":37503.447418595,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":37577.105502269,"data":"Test accuracy: 85.572\n"}
+,{"stream_name":"stdout","time":37577.105552904,"data":"No obj accuracy: 98.975\n"}
+,{"stream_name":"stdout","time":37577.105561923,"data":"Obj accuracy: 60.998\n"}
+,{"stream_name":"stdout","time":37577.105567716,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":37583.989443121,"data":"INFO: Epoch 34, global step 18130: 'val_loss' reached 5.41643 (best 5.41643), saving model to 'checkpoints/model-epoch=34-val_loss=5.42-val_loss=5.416430.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":38272.440084272,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":38678.434937586,"data":"INFO: Epoch 35, global step 18648: 'val_loss' was not in top 3\n"}
+,{"stream_name":"stdout","time":38678.641031366,"data":"Train accuracy: 81.329\n"}
+,{"stream_name":"stdout","time":38678.641067888,"data":"No obj accuracy: 98.092\n"}
+,{"stream_name":"stdout","time":38678.641075406,"data":"Obj accuracy: 66.482\n"}
+,{"stream_name":"stdout","time":39359.304700971,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":39759.799759556,"data":"INFO: Epoch 36, global step 19166: 'val_loss' reached 5.47378 (best 5.41643), saving model to 'checkpoints/model-epoch=36-val_loss=5.47-val_loss=5.473778.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":39760.010016479,"data":"Train accuracy: 82.314\n"}
+,{"stream_name":"stdout","time":39760.010061146,"data":"No obj accuracy: 98.081\n"}
+,{"stream_name":"stdout","time":39760.010068112,"data":"Obj accuracy: 67.056\n"}
+,{"stream_name":"stdout","time":40441.378886421,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":40839.60603883,"data":"INFO: Epoch 37, global step 19684: 'val_loss' was not in top 3\n"}
+,{"stream_name":"stdout","time":40839.816549936,"data":"Train accuracy: 82.849\n"}
+,{"stream_name":"stdout","time":40839.816638679,"data":"No obj accuracy: 98.104\n"}
+,{"stream_name":"stdout","time":40839.816658064,"data":"Obj accuracy: 66.969\n"}
+,{"stream_name":"stdout","time":41513.512392321,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stderr","time":41912.959299706,"data":"INFO: Epoch 38, global step 20202: 'val_loss' reached 5.17493 (best 5.17493), saving model to 'checkpoints/model-epoch=38-val_loss=5.17-val_loss=5.174929.ckpt' as top 3\n"}
+,{"stream_name":"stdout","time":41913.396276807,"data":"Train accuracy: 82.937\n"}
+,{"stream_name":"stdout","time":41913.396317513,"data":"No obj accuracy: 98.044\n"}
+,{"stream_name":"stdout","time":41913.396323532,"data":"Obj accuracy: 67.523\n"}
+,{"stream_name":"stdout","time":42589.423661858,"data":"Calculating training accuracy...\n"}
+,{"stream_name":"stdout","time":42989.329732097,"data":"Train accuracy: 83.124\n"}
+,{"stream_name":"stdout","time":42989.329778613,"data":"No obj accuracy: 97.996\n"}
+,{"stream_name":"stdout","time":42989.329785696,"data":"Obj accuracy: 67.799\n"}
+,{"stream_name":"stdout","time":42989.32979312,"data":"Calculating Test accuracy...\n"}
+,{"stream_name":"stdout","time":43062.925899861,"data":"Test accuracy: 86.786\n"}
+,{"stream_name":"stdout","time":43062.925934562,"data":"No obj accuracy: 98.921\n"}
+,{"stream_name":"stdout","time":43062.925940697,"data":"Obj accuracy: 62.402\n"}
+,{"stream_name":"stdout","time":43062.925946255,"data":"Plotting example...\n"}
+,{"stream_name":"stderr","time":43080.026062864,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":43080.026104301,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":43080.026371513,"data":"  File \"/opt/conda/lib/python3.10/site-packages/papermill/execute.py\", line 128, in execute_notebook\n"}
+,{"stream_name":"stderr","time":43080.026555519,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":43080.026565898,"data":"  File \"/opt/conda/lib/python3.10/site-packages/papermill/execute.py\", line 232, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":43080.026708604,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":43080.027457724,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":43080.027468034,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":43080.027472106,"data":"Exception encountered at \"In [19]\":\n"}
+,{"stream_name":"stderr","time":43080.027476817,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":43080.027484271,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":43080.027490013,"data":"Cell In[19], line 7\n"}
+,{"stream_name":"stderr","time":43080.027496121,"data":"      5     trainer.fit(model, datamodule=datamodule,ckpt_path='/kaggle/working/checkpoints/last.ckpt')\n"}
+,{"stream_name":"stderr","time":43080.027502224,"data":"      6 else:\n"}
+,{"stream_name":"stderr","time":43080.027508111,"data":"----\u003e 7     trainer.fit(model, datamodule=datamodule) \n"}
+,{"stream_name":"stderr","time":43080.027514548,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027520608,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py:544, in Trainer.fit(self, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path)\n"}
+,{"stream_name":"stderr","time":43080.027527114,"data":"    542 self.state.status = TrainerStatus.RUNNING\n"}
+,{"stream_name":"stderr","time":43080.027532383,"data":"    543 self.training = True\n"}
+,{"stream_name":"stderr","time":43080.027537646,"data":"--\u003e 544 call._call_and_handle_interrupt(\n"}
+,{"stream_name":"stderr","time":43080.027542919,"data":"    545     self, self._fit_impl, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path\n"}
+,{"stream_name":"stderr","time":43080.027550416,"data":"    546 )\n"}
+,{"stream_name":"stderr","time":43080.027555206,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027558829,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/trainer/call.py:44, in _call_and_handle_interrupt(trainer, trainer_fn, *args, **kwargs)\n"}
+,{"stream_name":"stderr","time":43080.027562643,"data":"     42     if trainer.strategy.launcher is not None:\n"}
+,{"stream_name":"stderr","time":43080.027566287,"data":"     43         return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)\n"}
+,{"stream_name":"stderr","time":43080.027579163,"data":"---\u003e 44     return trainer_fn(*args, **kwargs)\n"}
+,{"stream_name":"stderr","time":43080.02758393,"data":"     46 except _TunerExitException:\n"}
+,{"stream_name":"stderr","time":43080.027587595,"data":"     47     _call_teardown_hook(trainer)\n"}
+,{"stream_name":"stderr","time":43080.027592576,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027599601,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py:580, in Trainer._fit_impl(self, model, train_dataloaders, val_dataloaders, datamodule, ckpt_path)\n"}
+,{"stream_name":"stderr","time":43080.027605662,"data":"    573 assert self.state.fn is not None\n"}
+,{"stream_name":"stderr","time":43080.027611757,"data":"    574 ckpt_path = self._checkpoint_connector._select_ckpt_path(\n"}
+,{"stream_name":"stderr","time":43080.027617988,"data":"    575     self.state.fn,\n"}
+,{"stream_name":"stderr","time":43080.027623266,"data":"    576     ckpt_path,\n"}
+,{"stream_name":"stderr","time":43080.027628396,"data":"    577     model_provided=True,\n"}
+,{"stream_name":"stderr","time":43080.027633453,"data":"    578     model_connected=self.lightning_module is not None,\n"}
+,{"stream_name":"stderr","time":43080.027638897,"data":"    579 )\n"}
+,{"stream_name":"stderr","time":43080.027644268,"data":"--\u003e 580 self._run(model, ckpt_path=ckpt_path)\n"}
+,{"stream_name":"stderr","time":43080.027649627,"data":"    582 assert self.state.stopped\n"}
+,{"stream_name":"stderr","time":43080.027654681,"data":"    583 self.training = False\n"}
+,{"stream_name":"stderr","time":43080.027659734,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027666588,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py:989, in Trainer._run(self, model, ckpt_path)\n"}
+,{"stream_name":"stderr","time":43080.027672078,"data":"    984 self._signal_connector.register_signal_handlers()\n"}
+,{"stream_name":"stderr","time":43080.02767574,"data":"    986 # ----------------------------\n"}
+,{"stream_name":"stderr","time":43080.027679301,"data":"    987 # RUN THE TRAINER\n"}
+,{"stream_name":"stderr","time":43080.027682815,"data":"    988 # ----------------------------\n"}
+,{"stream_name":"stderr","time":43080.027687732,"data":"--\u003e 989 results = self._run_stage()\n"}
+,{"stream_name":"stderr","time":43080.027695058,"data":"    991 # ----------------------------\n"}
+,{"stream_name":"stderr","time":43080.027700528,"data":"    992 # POST-Training CLEAN UP\n"}
+,{"stream_name":"stderr","time":43080.027706606,"data":"    993 # ----------------------------\n"}
+,{"stream_name":"stderr","time":43080.027712604,"data":"    994 log.debug(f\"{self.__class__.__name__}: trainer tearing down\")\n"}
+,{"stream_name":"stderr","time":43080.027718178,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027723193,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py:1035, in Trainer._run_stage(self)\n"}
+,{"stream_name":"stderr","time":43080.027728538,"data":"   1033         self._run_sanity_check()\n"}
+,{"stream_name":"stderr","time":43080.027733753,"data":"   1034     with torch.autograd.set_detect_anomaly(self._detect_anomaly):\n"}
+,{"stream_name":"stderr","time":43080.027738938,"data":"-\u003e 1035         self.fit_loop.run()\n"}
+,{"stream_name":"stderr","time":43080.027744008,"data":"   1036     return None\n"}
+,{"stream_name":"stderr","time":43080.027748978,"data":"   1037 raise RuntimeError(f\"Unexpected state {self.state}\")\n"}
+,{"stream_name":"stderr","time":43080.027754272,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027759196,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/loops/fit_loop.py:203, in _FitLoop.run(self)\n"}
+,{"stream_name":"stderr","time":43080.027771657,"data":"    201     self.on_advance_start()\n"}
+,{"stream_name":"stderr","time":43080.027776278,"data":"    202     self.advance()\n"}
+,{"stream_name":"stderr","time":43080.027780768,"data":"--\u003e 203     self.on_advance_end()\n"}
+,{"stream_name":"stderr","time":43080.027787936,"data":"    204     self._restarting = False\n"}
+,{"stream_name":"stderr","time":43080.027793598,"data":"    205 except StopIteration:\n"}
+,{"stream_name":"stderr","time":43080.027799573,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027805513,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/loops/fit_loop.py:372, in _FitLoop.on_advance_end(self)\n"}
+,{"stream_name":"stderr","time":43080.027811313,"data":"    366 self.epoch_progress.increment_processed()\n"}
+,{"stream_name":"stderr","time":43080.027816428,"data":"    368 # call train epoch end hooks\n"}
+,{"stream_name":"stderr","time":43080.027821525,"data":"    369 # we always call callback hooks first, but here we need to make an exception for the callbacks that\n"}
+,{"stream_name":"stderr","time":43080.027826863,"data":"    370 # monitor a metric, otherwise they wouldn't be able to monitor a key logged in\n"}
+,{"stream_name":"stderr","time":43080.027832103,"data":"    371 # `LightningModule.on_train_epoch_end`\n"}
+,{"stream_name":"stderr","time":43080.027837261,"data":"--\u003e 372 call._call_callback_hooks(trainer, \"on_train_epoch_end\", monitoring_callbacks=False)\n"}
+,{"stream_name":"stderr","time":43080.027842668,"data":"    373 call._call_lightning_module_hook(trainer, \"on_train_epoch_end\")\n"}
+,{"stream_name":"stderr","time":43080.027857437,"data":"    374 call._call_callback_hooks(trainer, \"on_train_epoch_end\", monitoring_callbacks=True)\n"}
+,{"stream_name":"stderr","time":43080.027865323,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027869721,"data":"File /opt/conda/lib/python3.10/site-packages/lightning/pytorch/trainer/call.py:208, in _call_callback_hooks(trainer, hook_name, monitoring_callbacks, *args, **kwargs)\n"}
+,{"stream_name":"stderr","time":43080.027874198,"data":"    206     if callable(fn):\n"}
+,{"stream_name":"stderr","time":43080.027881242,"data":"    207         with trainer.profiler.profile(f\"[Callback]{callback.state_key}.{hook_name}\"):\n"}
+,{"stream_name":"stderr","time":43080.02788761,"data":"--\u003e 208             fn(trainer, trainer.lightning_module, *args, **kwargs)\n"}
+,{"stream_name":"stderr","time":43080.027894065,"data":"    210 if pl_module:\n"}
+,{"stream_name":"stderr","time":43080.027900315,"data":"    211     # restore current_fx when nested context\n"}
+,{"stream_name":"stderr","time":43080.027906128,"data":"    212     pl_module._current_fx_name = prev_fx_name\n"}
+,{"stream_name":"stderr","time":43080.027911307,"data":"\n"}
+,{"stream_name":"stderr","time":43080.027916201,"data":"File /kaggle/working/custom-lit-yolov3/callbacks.py:66, in MAPCallback.on_train_epoch_end(self, trainer, pl_module)\n"}
+,{"stream_name":"stderr","time":43080.027921637,"data":"     64 def on_train_epoch_end(self, trainer, pl_module): \n"}
+,{"stream_name":"stderr","time":43080.027926822,"data":"     65     if (trainer.current_epoch + 1) % self.test_n_epochs == 0:\n"}
+,{"stream_name":"stderr","time":43080.027932018,"data":"---\u003e 66         pred_boxes, true_boxes = get_evaluation_bboxes(\n"}
+,{"stream_name":"stderr","time":43080.027937369,"data":"     67             loader=trainer.datamodule.test_dataloader(),\n"}
+,{"stream_name":"stderr","time":43080.027942614,"data":"     68             model=pl_module,\n"}
+,{"stream_name":"stderr","time":43080.027958976,"data":"     69             iou_threshold=self.config.NMS_IOU_THRESH,\n"}
+,{"stream_name":"stderr","time":43080.027970605,"data":"     70             anchors=self.config.ANCHORS,\n"}
+,{"stream_name":"stderr","time":43080.027977194,"data":"     71             threshold=self.config.CONF_THRESHOLD,\n"}
+,{"stream_name":"stderr","time":43080.027982564,"data":"     72             device=self.config.DEVICE,\n"}
+,{"stream_name":"stderr","time":43080.027990577,"data":"     73         )\n"}
+,{"stream_name":"stderr","time":43080.02799631,"data":"     75         map_val = mean_average_precision(\n"}
+,{"stream_name":"stderr","time":43080.028001733,"data":"     76             pred_boxes=pred_boxes,\n"}
+,{"stream_name":"stderr","time":43080.028006528,"data":"     77             true_boxes=true_boxes,\n"}
+,{"stream_name":"stderr","time":43080.028011386,"data":"     78             iou_threshold=self.config.MAP_IOU_THRESH,\n"}
+,{"stream_name":"stderr","time":43080.028016253,"data":"     79             box_format=\"midpoint\",\n"}
+,{"stream_name":"stderr","time":43080.028021058,"data":"     80             num_classes=self.config.NUM_CLASSES,)\n"}
+,{"stream_name":"stderr","time":43080.028025956,"data":"     83         pl_module.log(\"val_map\", map_val.item(), logger=True)\n"}
+,{"stream_name":"stderr","time":43080.028037278,"data":"\n"}
+,{"stream_name":"stderr","time":43080.028041888,"data":"File /kaggle/working/custom-lit-yolov3/utils.py:305, in get_evaluation_bboxes(loader, model, iou_threshold, anchors, threshold, box_format, device)\n"}
+,{"stream_name":"stderr","time":43080.028046954,"data":"    303 S = predictions[i].shape[2]\n"}
+,{"stream_name":"stderr","time":43080.02805165,"data":"    304 anchor = torch.tensor([*anchors[i]]) * S\n"}
+,{"stream_name":"stderr","time":43080.028058214,"data":"--\u003e 305 boxes_scale_i = cells_to_bboxes(\n"}
+,{"stream_name":"stderr","time":43080.028062052,"data":"    306     predictions[i], anchor, S=S, is_preds=True\n"}
+,{"stream_name":"stderr","time":43080.02806612,"data":"    307 )\n"}
+,{"stream_name":"stderr","time":43080.02807261,"data":"    308 for idx, (box) in enumerate(boxes_scale_i):\n"}
+,{"stream_name":"stderr","time":43080.028077829,"data":"    309     bboxes[idx] += box\n"}
+,{"stream_name":"stderr","time":43080.028083772,"data":"\n"}
+,{"stream_name":"stderr","time":43080.028088974,"data":"File /kaggle/working/custom-lit-yolov3/utils.py:357, in cells_to_bboxes(predictions, anchors, S, is_preds)\n"}
+,{"stream_name":"stderr","time":43080.028094123,"data":"    355 anchors = anchors.reshape(1, len(anchors), 1, 1, 2)\n"}
+,{"stream_name":"stderr","time":43080.028099024,"data":"    356 box_predictions[..., 0:2] = torch.sigmoid(box_predictions[..., 0:2])\n"}
+,{"stream_name":"stderr","time":43080.028103913,"data":"--\u003e 357 box_predictions[..., 2:] = torch.exp(box_predictions[..., 2:]) * anchors\n"}
+,{"stream_name":"stderr","time":43080.028108906,"data":"    358 scores = torch.sigmoid(predictions[..., 0:1])\n"}
+,{"stream_name":"stderr","time":43080.028113694,"data":"    359 best_class = torch.argmax(predictions[..., 5:], dim=-1).unsqueeze(-1)\n"}
+,{"stream_name":"stderr","time":43080.028118608,"data":"\n"}
+,{"stream_name":"stderr","time":43080.028123559,"data":"RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!\n"}
+,{"stream_name":"stderr","time":43080.02812857,"data":"\n"}
+,{"stream_name":"stderr","time":43082.487240572,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":43082.487270736,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":43082.502884176,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":43082.531570984,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":43084.026739921,"data":"[NbConvertApp] Writing 19222745 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":43085.877244796,"data":"/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":43085.87729482,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":43085.880714931,"data":"[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.\n"}
+,{"stream_name":"stderr","time":43085.927626924,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":43087.667340327,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":43087.667373896,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.667981007,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.668362313,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.668839434,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.66924628,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.66957744,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.669948639,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.670353889,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.670672196,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.671141071,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.671512753,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.671925152,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.6722773,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.67261629,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.672903936,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.673293493,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.673598304,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.673957961,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.674315928,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.674698189,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.675041608,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.675346148,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.675635884,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.676031749,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.676350208,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.676710305,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.677043934,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.677420206,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.677758544,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.678142714,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.678468872,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.678838567,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.67918113,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.679525545,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.679858941,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.68019414,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.680515907,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.680845326,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.681089287,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.681476454,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.681781102,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.682175989,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.682553258,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.682918869,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.683235386,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.683557131,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.683857404,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.684222165,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.684538403,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.684895014,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.685333497,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.685669587,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.686020073,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.686384081,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.686684546,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.68703845,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.687390853,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.687780724,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.688144753,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.688513651,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.688851138,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.689170056,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.689501947,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.689891032,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.690232154,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":43087.690732231,"data":"[NbConvertApp] Writing 1252008 bytes to __results__.html\n"}
+]
